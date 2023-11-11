@@ -1,0 +1,80 @@
+#root{
+    font-family: Lato;
+    color: #000;
+    font-size: 23px;
+}
+    
+.custom-brand{
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 34.5px */
+}
+.brand-title{
+    color: #8B201D;
+}
+
+.gallery-title{
+    color: #454664;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sidebarStyle{
+    width: 80px;
+    background-color: #454664;
+}
+
+#basic-addon2{
+    color: #FFF;
+    border: none;
+    border-radius: 0px 41px 41px 0px;
+    background: #93B4BC;
+}
+
+.search-input{
+    border-radius: 41px 0px 0px 41px;
+}
+
+.favourites-lists{
+    font-size: 16px;
+    color: #454664;
+    font-weight: 700;
+}
+
+.author-name{
+    color: #5B5B5B;
+    font-weight: 400;
+}
+
+.ny-cards{
+    height: 200px;
+}
+
+.ny-card-img{
+    max-height: 90%;
+    object-fit:contain;
+}
+
+.gallery-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.primary-color{
+    color: #454664;
+}
+
+.secondary-color{
+    color: #93B4BC;
+}
+.horizontal-line {
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .nav-item.active {
+    background: linear-gradient(180deg, #679CF6 0%, #4072EE 100%);
+  }
+  .nav-item.active .horizontal-line{
+    display:none;
+  }

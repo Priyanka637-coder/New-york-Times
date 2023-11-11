@@ -1,0 +1,62 @@
+.search-component{
+    display: none;
+    visibility: hidden;
+}
+
+.Edit-bg-image{
+    background-image: url('/src/assets/hero-image.jpg');
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    height: 220px;
+}
+
+.edit-group-container{
+    width: 85%;
+}
+
+.edit-group-label{
+    width: 115px;
+    background-color: #93B4BC;
+    color: #fff;
+    display: inline-block;
+}
+
+.star-rating {
+    position: relative;
+  }
+  
+  .star-rating::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 5px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  
+  .star {
+    margin-right: 5px; /* Adjust the margin as needed */
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: gold; /* Color for selected stars */
+  }
+
+  .star-rating-container{
+    background-color: #fff;
+  }
+
+  .custom-button{
+    border-radius: 40px;
+    background: linear-gradient(180deg, #679CF6 0%, #4072EE 100%);
+  }
+
+  .edit-group-container{
+    color: #454664;
+  }
